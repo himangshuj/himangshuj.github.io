@@ -3,13 +3,12 @@ layout: post
 title: Dealing with unwanted  versioning in mongoosejs
 image: versioning.png
 date:   2014-02-22 12:00:00
-categories: posts
 ---
-[Mongodb] (http://www.mongodb.org/) and [expressjs] (http://expressjs.com/) connected via [mongoosejs]
+<p class="intro"> <span class="dropcap">M</span>ongodb  and [expressjs] (http://expressjs.com/) connected via [mongoosejs]
 (http://mongoosejs.com/)
 is the default choice of stack for  many a developers who are building applications on nodejs. I went with the mob and I
 have nothing to regret. Having spent a significant part of my life writing untestable jquery code, I knew I did not want
-to deal with it any more.I went with the new kid in the block angularjs.
+to deal with it any more.I went with the new kid in the block angularjs.</p>
 
 Our [application] (http://lab.sokratik.com) captures many actions happening on the browser and asynchronously posts them
 to the server. Once in a while, the responses from these requests do not come in chronological order. One fine day , while
