@@ -4,13 +4,13 @@ title: Dealing with unwanted  versioning in mongoosejs
 image: versioning.png
 date:   2014-02-22 12:00:00
 ---
-<p class="intro"> <span class="dropcap">M</span>ongodb  and [expressjs] (http://expressjs.com/) connected via [mongoosejs]
-(http://mongoosejs.com/)
+<p class="intro"> <a href="http://mongodb.org"><span class="dropcap">M</span>ongodb</a>  and <a href="http://expressjs.com/">expressjs</a> connected via 
+<a href="http://mongoosejs.com/">mongoosejs</a>
 is the default choice of stack for  many a developers who are building applications on nodejs. I went with the mob and I
 have nothing to regret. Having spent a significant part of my life writing untestable jquery code, I knew I did not want
 to deal with it any more.I went with the new kid in the block angularjs.</p>
 
-Our [application] (http://lab.sokratik.com) captures many actions happening on the browser and asynchronously posts them
+Our [application](https://github.com/himangshuj/sokratik-lab) captures many actions happening on the browser and asynchronously posts them
 to the server. Once in a while, the responses from these requests do not come in chronological order. One fine day , while
 debugging I found that my document was being reverted to an earlier state seamlessly. This had never happened in my dev
 setup but damn the production beta servers. On debugging further I found that mongoose js ends a magical variable **__v**

@@ -6,13 +6,15 @@ date:   2014-02-18 12:00:00
 categories: posts
 ---
 
-Our first beta product [lab.sokratik.com] (http://lab.sokratik.com) uses two nodejs servers, one of them is a binaryjs
+<p class="intro"><span class="dropcap">O</span>ur first beta product <a href="https://github.com/himangshuj/sokratik-lab"> http://lab.sokratik.com </a>
+ uses two nodejs servers, one of them is a binaryjs
 socket which is a wrapper around amazon s3, the other powers all the html you see on your browser. This is an expressjs
-application sitting behind nginx and talking to browser and mongolab. The server architecture is based on [mean]
-(http://mean.io) . If you are writing a new application, I would strongly recommend building your code on top of mean.
+application sitting behind nginx and talking to browser and mongolab.</p>
+ 
+The server architecture is based on [mean](http://mean.io) . If you are writing a new application, I would strongly recommend building your code on top of mean.
 Having spent considerable time writing javascript, I zeroed in on angularjs for my frontend framework. Without going into
 merits of why chose this technology over other, I can say that any angularjs application talks in the language of json.
-My experience with server crashes also dictated that I use [forever] (https://github.com/nodejitsu/forever).
+My experience with server crashes also dictated that I use [forever](https://github.com/nodejitsu/forever).
 When a server goes down even more important than finding
 why it went down is to bring the server up.
 
