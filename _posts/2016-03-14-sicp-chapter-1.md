@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SICP selected exercises
-image: sicp.png
+image: sicp.jpg
 date:  2016-02-12 12:00:00
 ---
 <p class="intro"> <span class="dropcap">S</span>olutions to selected problems in sicp </p>
