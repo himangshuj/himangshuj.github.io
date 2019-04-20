@@ -19,7 +19,7 @@ not spent coding. While I have no answer of what is the best name for a repo or 
 I have found my individual answers to a few architectural questions. 
 
 
-*Inspiration*
+**Inspiration**
 
 * https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb
 * https://medium.com/@goldybenedict/single-page-applications-vs-multiple-page-applications-do-you-really-need-an-spa-cf60825232a3
