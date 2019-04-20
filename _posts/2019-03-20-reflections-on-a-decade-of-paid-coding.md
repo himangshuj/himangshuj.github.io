@@ -42,6 +42,25 @@ Having said that there is a definite use of microservice. I find them very usefu
 They insulate the core code-base from libraries brought in by third parties like SOAP dependencies etc.</p>
 
 ### Which programming language  and framework to use ?
+This can get very religious. I have seen a lot of debates from seemingly smart people that the language they like is the best
+language. It is partially true that the language the main architect is most proficient with is the best language provided it
+is reasonably popular and stable. By reasonably popular, I mean how many projects and libraries exists in github. How many questions exist
+in stack overflow. It is tempting to sometime go by marketing jargon of a every fancy new language and it is very important to 
+resist the temptation. A few parameters I find useful to evaluate a framework are
+
+* Does it support out of box standard authorization and authentication
+* Does it generate crud apis(how easy is it to change data-model)
+* Does it handle form validations
+* Is it easy to hire
+* Is it scalable
+* Re-usable with existing code
+* Project stability
+* Ease of Debug/support
+
+
+
+
+
 
 ## Inspiration
 
