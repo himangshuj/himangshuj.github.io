@@ -35,11 +35,11 @@ require the best ux or latency.
 ## My Gospel
 
 ### Monolith vs Micro service
-*Wherever possible , you should not use microservice. Microservices significantly
+<p>Wherever possible , you should not use microservice. Microservices significantly
 increases the code complexity without any tangible benefits at early stages. A start up
 should not need asymmetric scaling. The benefits of zero downtime is also over-exaggerated in context of a startup.
 Having said that there is a definite use of microservice. I find them very useful when integrating with third party services. 
-They insulate the core code-base from libraries brought in by third parties like SOAP dependencies etc.
+They insulate the core code-base from libraries brought in by third parties like SOAP dependencies etc.</p>
 
 ### Which programming language  and framework to use ?
 
