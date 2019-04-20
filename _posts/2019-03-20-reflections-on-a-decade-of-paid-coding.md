@@ -14,6 +14,7 @@ and had to figure my way out. In architecture everyone has an opinion.
 > To app or not to app <br/>
 > Microservice vs monolith <br/>
 
-These and all questions on naming cloud the mind of many of us who have been fortunate
-enough to be the author of commit number 1 of a repo or repos. 
+All the above the age old Shakespearean dilemma of "whats in a name?" can take a lot of time
+not spent coding. While I have no answer of what is the best name for a repo or a variable or function,
+I have found my individual answers to a few architectural questions. 
          
