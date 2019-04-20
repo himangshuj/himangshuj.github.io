@@ -8,11 +8,11 @@ I have spent better part of my professional career in some startup or other as o
 the earliest engineers. This has meant , I was thrust into the frying pan far too often
 and had to figure my way out. In architecture everyone has an opinion. 
 
-> To docker or not to docker <br/>
-> React vs angular vs jquery <br/>
-> ruby vs python <br/>
-> To app or not to app <br/>
-> Microservice vs monolith <br/>
+* Micro service vs monolith
+* Which programming language  and framework to use ?
+* Which database to use ?
+* How to host ?
+* How to deploy ?
 
 All the above the age old Shakespearean dilemma of "whats in a name?" can take a lot of time
 not spent coding. While I have no answer of what is the best name for a repo or a variable or function,
@@ -35,7 +35,11 @@ require the best ux or latency.
 * Monolith vs Micro service
 > Wherever possible , you should not use microservice. Microservices significantly
 increases the code complexity without any tangible benefits at early stages. A start up
-should not need asymmetric scaling. 
+should not need asymmetric scaling. The benefits of zero downtime is also over-exaggerated in context of a startup.
+Having said that there is a definite use of microservice. I find them very useful when integrating with third party services. 
+They insulate the core code-base from libraries brought in by third parties like SOAP dependencies etc.
+
+* Which programming language  and framework to use ?
 
 **Inspiration**
 
