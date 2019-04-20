@@ -17,4 +17,13 @@ and had to figure my way out. In architecture everyone has an opinion.
 All the above the age old Shakespearean dilemma of "whats in a name?" can take a lot of time
 not spent coding. While I have no answer of what is the best name for a repo or a variable or function,
 I have found my individual answers to a few architectural questions. 
+
+
+*Inspiration*
+
+* https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb
+* https://medium.com/@goldybenedict/single-page-applications-vs-multiple-page-applications-do-you-really-need-an-spa-cf60825232a3
+* https://www.dwmkerr.com/the-death-of-microservice-madness-in-2018/
+* https://twitter.com/mohapatrahemant/status/1102401615263223809?lang=en
+
          
