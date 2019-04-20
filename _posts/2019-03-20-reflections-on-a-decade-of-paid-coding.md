@@ -18,6 +18,24 @@ All the above the age old Shakespearean dilemma of "whats in a name?" can take a
 not spent coding. While I have no answer of what is the best name for a repo or a variable or function,
 I have found my individual answers to a few architectural questions. 
 
+**Constraints of a startup**
+
+* Less Time and Resource
+* Lots of assumptions to validate. This is not same as lot of code to write. Wherever possible
+we should not write code and use off the shelf solution.
+* Crude nature of assumptions. Assumptions or hypothesis should be crude. If the
+assumption requires you to have the fastest code that can be written or the most
+polished possible website, the assumption cannot be the basis of a startup. In the 
+initial phases of the startup we are all building the fundamental basic blocks, the core
+problems addressed at this stage should be solvable using a decent product and should not
+require the best ux or latency.
+
+**My Gospel**
+
+* Monolith vs Micro service
+> Wherever possible , you should not use microservice. Microservices significantly
+increases the code complexity without any tangible benefits at early stages. A start up
+should not need asymmetric scaling. 
 
 **Inspiration**
 
