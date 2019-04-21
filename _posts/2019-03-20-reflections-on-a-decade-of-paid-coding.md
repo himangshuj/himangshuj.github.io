@@ -64,7 +64,7 @@ and error detection without using too much resources. SQL is far more evolved th
 solutions like redash abnd metabase which can be used off the shelf to do error correction and analytics. 
 
 ### How to host and deploy ?
-Refer [[https://twitter.com/mohapatrahemant/status/1102401615263223809]] , infrastructure is incredibly hard and is hostage to physical failures. You
+Refer [tweetstorm on lyft infra](https://twitter.com/mohapatrahemant/status/1102401615263223809) , infrastructure is incredibly hard and is hostage to physical failures. You
 need to use standard solutions for deploying and hosting. Besides it is possible to make mistakes during deployment . I prefer to use cloudformation
 on aws backed by custom amis to do deployment. These are stable , mainstream and less error prone. I also have nothing against app engine/ digital ocean . However,
 I only know one of them and like the question on `Which programming language?`, even in infra it is best to stick to known devil.
