@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Production Engineering for B2B2C Startups
+title: Database Engineering for B2B2C Startups
 image: dashboard.jpg
 date:  2019-11-17 12:00:00
 description: A summary of how I leveraged Redash to build a dashboard for my Company . The dashboard enabled a single engineer to keep tab of every money movement in the company. It also kept tab of any engineering failures and product performace of the company. As with all things startup. This was a continuous journey that saw me abandon nosql databases use foreign tables to do complex joins and build alarms around system truths. 
