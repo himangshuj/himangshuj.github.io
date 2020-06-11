@@ -17,7 +17,8 @@ navigation:
    url: /about
  - title: Contact
    url: /contact
-
+ - title: Media
+   url: /media-coverage
 social:
    github: himangshuj
    twitter: himangshuj
