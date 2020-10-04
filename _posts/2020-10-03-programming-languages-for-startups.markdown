@@ -23,7 +23,7 @@ In the thirty years since Time Bernard Lee created WorldWideWeb,
     As Leo Tolstoy once said, *"All successful websites are alike;all
      unsuccessful websites are unsuccessful in their own way."*
      
-| Product | Year Made | Primary Language | Language/Framework Founded | Why did they choose it ? |
+| Product | Year Made | Primary Language | Language/Framework Founded | Hypothesis on why did they choose it ? |
 | ------- | ------- | ------- | ------- | ------- |
 | MS DOS | 1982 | 8086 Assembly | 1972 | Microsoft had to deliver a new operating system for IBM in limited time. Instead of building from scratch , they modified the 8 bit CP/M for 16 bit PCs.  |   
 | Yahoo Directory | 1994 | Html | 1991 | No definitive article on the initial architecture of Yahoo but based on architecture of related WWW Virtual Library, it can be guessed it was pure static pre generated html.  |
