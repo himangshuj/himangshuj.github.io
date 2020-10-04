@@ -20,8 +20,8 @@ In the thirty years since Time Bernard Lee created WorldWideWeb,
    I was more interested in the early days of these companies. 
     I chose fourteen companies that inspired me.  Collecting data is not enough. 
     I wanted to find patterns.  
-    As Leo Tolstoy once said, *"All successful websites are alike;all
-     unsuccessful websites are unsuccessful in their own way."*
+    As Leo Tolstoy once said, *"All successful product architectures start alike;all
+     unsuccessful products are unsuccessful in their own way."*
      
 | Product | Year Made | Primary Language | Language/Framework Founded | Hypothesis on why did they choose it ? |
 | ------- | ------- | ------- | ------- | ------- |
@@ -39,6 +39,24 @@ In the thirty years since Time Bernard Lee created WorldWideWeb,
 | Dropbox.com | 2008 | Python | 1990 | At its core, dropbox is a distributed file server. Dropbox founders liked python. They needed to work well both as desktop and web server and python fits the bill better than ruby or php at that time. |
 | UberCab.com | 2009 | Python | 1990 | Around 2005 saw the release of Django one of the post popular web frameworks   |
 | Stripe.com | 2010 | Ruby on Rails | 2010 | In Patrik's own words, there was little to choose between Ruby and Python . They knew ruby better . They also punted on solving scalability problems.  |
+
+## Observed Patterns 
+In my anecdotal survey of languages, a few things stand out.
+
+* Successful companies picked languages that the founding team knew very well. Quite a few products owe their birth to intellectual curiosity, but I did not find a single company whose original architecture was an indulgence in intellectual curiosity.
+* The founding team optimized for speed of iteration over everything else.
+* The founding team executed fast. Some groups had moved from idea to release in under two months.
+* Scalability was never an existential crisis. A lot of products had a change of stack later. Youtube became python while Twitter moved to scala. Facebook decided to create compiled PHP to optimize performance.
+
+## My take on today's programming languages
+
+* Php is the most straightforward language to deploy. 
+* Python is the best general-purpose language due to its wide array of libraries. 
+* Ruby on Rails has proved that convention is better than configuration. I like that it restricts the options available to developers. The lack of choice ironically leads to faster web development.
+* Nodejs is very popular among people who started their life in frontend programming. One gripe I have about javascript is that it changes way too much and way too soon. 
+* For my startup, I would use Elixir. I have been coding in Elixir for the last two years. I like that it is as opinionated as Ruby on Rails without the metaprogramming.
+
+## Parting Thoughts
 
 To sum up, I will borrow Patrick's answer as to why he chose ruby. "It's reasonably powerful, it has a large community, there are lots of actively-maintained libraries, and it's sufficiently widely deployed that you're unlikely to hit big, unexpected problems"  We can use the same justification for any language. 
 
